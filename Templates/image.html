@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+    *{
+    background-color: yellow;
+
+    }
+    img{
+
+    width:300px;
+    height:300px;
+
+    position:5em;
+    }
+
+  </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% load static %}
+<h2>Butterfly</h2>
+
+<img src="{% static 'image/img.png' %}">
+</body>
+</html>
